@@ -1,38 +1,40 @@
+* {
+    background-color: #121212;
+}
+
 .App {
-  text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #BB86FC;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CryptoList {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.CryptoList div {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding-top: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #BB86FC;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CryptoList div:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 25px #BB86FC;
 }
