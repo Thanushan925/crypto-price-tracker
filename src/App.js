@@ -1,19 +1,15 @@
-import React from "react";
-import "./App.css";
-
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import Main from "./routes/Main";
-import Currency from "./routes/Currency";
+import NavigationBar from "./components/NavigationBar";
+import Home from "./components/Home";
+import List from "./components/Prices";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/currency/:id" element={<Currency />} />
-        </Routes>
-      </Router>
+    <div>
+      <NavigationBar />
+      <Home />
+      <List />
+      <Feedback />
     </div>
   );
 }

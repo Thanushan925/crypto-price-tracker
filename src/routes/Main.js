@@ -17,7 +17,7 @@ function Main() {
   return (
     <div>
       <div id="header">
-        <h1>Crypto Price Tracker</h1>
+        <h1>Krypto Price Tracker</h1>
       </div>
 
       <div className="CryptoList">
