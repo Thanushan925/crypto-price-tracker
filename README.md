@@ -4,4 +4,4 @@ Krypto Tracker is a Cryptocurrency Price Tracker. It uses CoinLore's API to trac
 
 More Details Coming Soon
 
-# Currently under a redesign
+# Currently Under Construction
