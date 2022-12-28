@@ -1,15 +1,9 @@
-import NavigationBar from "./components/NavigationBar";
-import Home from "./components/Home";
-import List from "./components/Prices";
-import Feedback from "./components/Feedback";
+import React from "react";
 
 function App() {
   return (
-    <div>
-      <NavigationBar />
-      <Home />
-      <List />
-      <Feedback />
+    <div className="App">
+
     </div>
   );
 }
