@@ -1,0 +1,19 @@
+* {
+    color: #e5e7eb;
+    background-color: #0A192F;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.cyan {
+    color: #66FCF1;
+}
