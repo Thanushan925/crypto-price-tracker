@@ -1,3 +1,9 @@
+img {
+    height: 50px;
+    margin-right: 10px;
+    width: auto;
+}
+
 .container {
     max-width: 1125px;
     margin: auto;
@@ -17,6 +23,28 @@
 
 .coin-name {
     margin-left: -4rem;
+}
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A193F;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    margin: 1rem 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.coin-row:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.img-symbol {
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 720px) {
