@@ -1,6 +1,5 @@
 * {
-    color: #e5e7eb;
-    background-color: #0A192F;
+    --myCyan: #66FCF1;
 }
 
 .navbar {
@@ -11,9 +10,8 @@
 
 .icon {
     font-size: 2em;
-    margin-right: 10px;
 }
 
 .cyan {
-    color: #66FCF1;
+    color: var(--myCyan);
 }
