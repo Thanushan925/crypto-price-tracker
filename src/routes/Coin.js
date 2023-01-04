@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import axios, { Axios } from 'axios';
+import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import './Coin.css'
 
@@ -19,7 +19,26 @@ const Coin = () => {
 
     return (
         <div>
-            <h1>{coin.id}</h1>
+            <div className="coin-container">
+                <div className="content">
+                    <h1>{coin.name}</h1>
+                </div>
+                <div className="content">
+                    <div className="rank">
+                        <span className="rank-button">Rank #{coin.market_cap_rank}</span>
+                    </div>
+                    <div className="info">
+                        <div className="coin-heading">
+                            {/* <img src={coin.image} /> */}
+                            <p>{coin.name}</p>
+                            <p>{coin.symbol.toUpperCase()}</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="content">
+                
+                </div>
+            </div>
         </div>
     )
 }
