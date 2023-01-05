@@ -1,0 +1,30 @@
+.container {
+    width: 100%; 
+    height: 50vh; 
+    border-bottom-width: 2px; 
+    background: #0A192F;
+}
+
+.title {
+    display: flex; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    margin-left: auto;
+    margin-right: auto; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.title-logo {
+    height: auto;
+    max-width: 100%;
+}
+
+.subtitle {
+    color: #ffffff; 
+    font-size: 1.5rem;
+    line-height: 2rem; 
+    font-weight: 700; 
+}
